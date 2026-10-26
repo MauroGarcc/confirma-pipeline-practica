@@ -3,7 +3,7 @@
 // Comision en centavos: monto (centavos) por tasa en puntos base (50 = 0,5 %).
 // Se trabaja en enteros para evitar errores de redondeo.
 function comisionCentavos(montoCentavos, tasaPuntosBase) {
-  return Math.round((montoCentavos * tasaPuntosBase) / 10000);
+  return Math.floor((montoCentavos * tasaPuntosBase) / 10000);
 }
 
 // Registro de cobros en memoria: la misma llave devuelve el mismo cobro.
