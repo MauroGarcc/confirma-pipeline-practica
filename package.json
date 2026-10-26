@@ -1,0 +1,6 @@
+{
+  "name": "confirma-pipeline-practica",
+  "version": "1.0.0",
+  "description": "Practica de pipeline del equipo Billetera (Confirma). Solo datos simulados.",
+  "scripts": { "test": "node --test" }
+}
