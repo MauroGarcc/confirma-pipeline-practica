@@ -1,0 +1,12 @@
+name: Pruebas del cobro
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  probar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm test
